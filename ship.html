@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thargoid Wars</title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-color: #150427;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Img/1x/Home-H.png','Img/1x/Thargoids-H.png','Img/1x/Ships-H.png','Img/1x/Guide-H.png','Img/1x/Info-H.png')">
+<div id="Wrapper">
+  
+
+<div id="Header"><img src="Img/Title.png" width="900" height="84" alt=""/></div>
+  <div id="Buttons"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','Img/1x/Home-H.png',1)"><img src="Img/1x/Home.png" alt="" width="180" height="101" id="Image2"></a><a href="thargoid.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','Img/1x/Thargoids-H.png',1)"><img src="Img/1x/Thargoids.png" alt="" width="180" height="101" id="Image3"></a><a href="ship.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','Img/1x/Ships-H.png',1)"><img src="Img/1x/Ships.png" alt="" width="180" height="101" id="Image4"></a><a href="guide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','Img/1x/Guide-H.png',1)"><img src="Img/1x/Guide.png" alt="" width="180" height="101" id="Image5"></a><a href="info.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','Img/1x/Info-H.png',1)"><img src="Img/1x/Info.png" alt="" width="180" height="101" id="Image6"></a></div>
+  <div id="Content">
+<h1>THE RIGHT SHIPS FOR THE RIGHT JOB</h1>
+    <h3>Most if not all ships can be used for AX combat if you equip it with AX weaponry and modules. Currently, 2 ships are considered the best in AX combat</h3>
+    <div class="Krait">
+		<h3> The Krait MK II</h3>
+      <p><img src="Img/Krait.png" alt="" width="450" height="300"/></p>
+      <p>The Krait is a good entry point for AX combat. Boasting good enough hull and firepower to combat most interceptors. It's capacitor is more than enough to use 4 guardian weapons effectivey without much problem.&nbsp; &nbsp;&nbsp;</p>
+    </div>
+    <div class="Chieftain"> 
+      <h3>The Alliance Chieftain </h3>
+      <p><img src="Img/Chieftain.png" alt="" width="450" height="300"/></p>
+      <p>&nbsp;The Alliance Chieftain is Arguably the best ship when it comes to AX combat. Boasting good maneuverability, hull, cargo, and hardpoints to cold orbit effortlessly while dishing out immense dmg.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+    </div>
+  </div>
+  <div id="Footer"> Disclaimer : this is just a fan-made web for an assignment | Design by : 11118128-鍾祥權</div>
+</div>
+
+</body>
+</html>

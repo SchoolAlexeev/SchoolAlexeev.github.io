@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thargoid Wars</title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+    background-color: #150427;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Img/1x/Home-H.png','Img/1x/Thargoids-H.png','Img/1x/Ships-H.png','Img/1x/Guide-H.png','Img/1x/Info-H.png')">
+<div id="Wrapper">
+  
+
+<div id="Header"><img src="Img/Title.png" width="900" height="84" alt=""/></div>
+  <div id="Buttons"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','Img/1x/Home-H.png',1)"><img src="Img/1x/Home.png" alt="" width="180" height="101" id="Image2"></a><a href="thargoid.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','Img/1x/Thargoids-H.png',1)"><img src="Img/1x/Thargoids.png" alt="" width="180" height="101" id="Image3"></a><a href="ship.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','Img/1x/Ships-H.png',1)"><img src="Img/1x/Ships.png" alt="" width="180" height="101" id="Image4"></a><a href="guide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','Img/1x/Guide-H.png',1)"><img src="Img/1x/Guide.png" alt="" width="180" height="101" id="Image5"></a><a href="info.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','Img/1x/Info-H.png',1)"><img src="Img/1x/Info.png" alt="" width="180" height="101" id="Image6"></a></div>
+  <div id="Content">
+<h1>KNOW YOUR ENEMY</h1>
+    <h3>Thargoids comes in different types of ships. Interceptors and Scouts. Here's a brief explanation of them!</h3>
+    <div class="Scout">
+      <h2>Thargoid Scouts</h2>
+      <p>Thargoid scouts are little ships that usually serve as mere annoyance. However, this little ships could easily overwhelm any inexperienced AX pilot and could hinder greatly when dealing with their larger brothers, the interceptor.</p>
+      <p>There are currently 4 types of thargoid scouts</p>
+      <p><img src="Img/Marauder.png" alt="" width="200" height="120"></p>
+      <h3>The Marauder</h3>
+      <p>The Marauder is the most basic scout. It comes in groups and highly maneuverable. Taking it out will help in reducing the annoyance when interceptor arrives</p>
+<p><img src="Img/Berserker.png" alt=""/></p>
+      <h3>The Berserker</h3>
+      <p>The more aggressive variant of the marauder. Capable of releasing pulses that increase nearby scouts damage and ordering them to fire a barrage of caustic missles</p>
+<p><img src="Img/Regenerator.png" alt=""/></p>
+      <h3>The Regenerator</h3>
+      <p>The regenerator, as it name implie, are capable to release pulses that heals nearby scout. Best taken out quickly lest they makes your day a little bit harder</p>
+      <p><img src="Img/Inciter.png" alt=""/></p>
+      <h3>The Inciter</h3>
+      <p>The inciter buffs nearby scouts to have increased speed and maneuverability, making them hard to hit thus harder to kill.</p>
+
+    </div>
+    <div class="Interceptor">
+      <h2>Thargoid Interceptor</h2>
+      <p>Thargoid interceptor are the main force of the thargoids and poses a serious threat to even the best AX pilots. What makes a thargoid interceptor different from the scouts is the ability to have a heart. A module special to interceptors that can heal it's damaged hulls and prevent damage taken after reaching a certain threshold. It also has thargon swarms. Small little drone-like ship that attacks independently and the main threat when dealing with interceptors. There are 4 main combat interceptors.</p>
+      <p><img src="Img/Cyclops.png" alt="" width="200" height="150"/></p>
+      <h3>&nbsp;The Cyclops</h3>
+      <p>The most common interceptor and a good start point when it comes to dealing with interceptors. It has the lowest amount of swarm and heart. Making it the easiest interceptor to fight. It shouldn't be underestimated though, unless you plan a quick, gruesomoe trip back to the rebuy screen.</p>
+      <p><img src="Img/Basilisk.png" alt="" width="200" height="150"/></p>
+      <h3>&nbsp;The Basilisk<br>
+      </h3>
+      <p>The fastest interceptor and a harder brother of the cyclops. Easily has enough speed to chase down even a speedy ship and highly maneuverable. Caution should be taken when dealing with the basilisk.</p>
+      <p><img src="Img/Medusa.png" alt="" width="200" height="150"/></p>
+      <h3>The Medusa</h3>
+      <p>The Medusa is significantly harder and have even more hearts and thargon swarms. It is best to avoid fighting this variant until you could take down cyclops comfortably.</p>
+      <p><img src="Img/Hydra.png" alt="" width="200" height="150"/></p>
+      <h3>&nbsp;The Hydra</h3>
+      <p>By far the hardest variant and a great challenge to even the best of the best AX pilot. Boasting overwhelmingly strong regeneration and hearts with swarm count reaching the third-digits. Unless you are ABSOLUTELY confident in fighting it, you better call some backup or run as fast as possible.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+    </div>
+  </div>
+  <div id="Footer"> Disclaimer : this is just a fan-made web for an assignment | Design by : 11118128-鍾祥權</div>
+</div>
+
+</body>
+</html>

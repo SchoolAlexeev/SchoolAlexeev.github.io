@@ -1,0 +1,74 @@
+@charset "utf-8";
+#Wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 2px solid #E68800;
+    border-left: 2px solid #DC8507;
+}
+#Wrapper #Header {
+    background-image: url(Img/Title%20BG.png);
+}
+#Content {
+    color: #FFFFFF;
+    border-top: 2px solid #D88103;
+}
+#Wrapper #Content h1 {
+    text-align: center;
+}
+#Wrapper #Content h3 {
+    text-align: center;
+}
+#Wrapper #Content iframe {
+    display: block;
+    left: 200px;
+}
+#Content .Interceptor {
+    width: 448px;
+    float: left;
+    border-left: 2px solid #E68800;
+}
+#Footer {
+    color: #FFFFFF;
+    text-align: center;
+    border-top: 2px solid #E68800;
+    clear: left;
+}
+.Scout p img {
+    display: inline-block;
+}
+
+
+.Scout {
+    width: 448px;
+    border-right: 2px solid #E68800;
+    float: left;
+}
+.Krait {
+    width: 450px;
+    float: left;
+}
+.Chieftain {
+    width: 450px;
+    float: left;
+}
+a:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#Div1 {
+    width: 300px;
+    float: left;
+}
+#Div2 {
+    float: left;
+    width: 300px;
+}
+#Div3 {
+    width: 300px;
+    float: left;
+}
+#Content p {
+    border-bottom: 3px solid #D88103;
+    border-top: 2px solid #D88103;
+}
